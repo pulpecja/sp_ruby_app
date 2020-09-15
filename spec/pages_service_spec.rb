@@ -26,7 +26,7 @@ describe PagesService do
     end
 
     it 'returns expected response' do
-      expect(show_pages_with_all_visits). to eq expected_response
+      expect(show_pages_with_all_visits).to eq expected_response
     end
   end
 
@@ -40,7 +40,7 @@ describe PagesService do
     end
 
     it 'returns expected response' do
-      expect(show_pages_with_unique_visits). to eq expected_response
+      expect(show_pages_with_unique_visits).to eq expected_response
     end
   end
 end

@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative 'log_file_parser'
-require 'pry'
 
 class PagesService
   def initialize(file_name)

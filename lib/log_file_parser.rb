@@ -7,7 +7,6 @@ class LogFileParser
   class FileSyntaxError < StandardError; end
 
   require_relative 'page'
-  require 'pry'
 
   def initialize(file_name)
     @all_pages = []
