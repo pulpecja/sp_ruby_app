@@ -9,7 +9,7 @@ class Page
   end
 
   def add_visit(visit_ip)
-    @visits << visit_ip
+    visits << visit_ip
   end
 
   def visits_count
